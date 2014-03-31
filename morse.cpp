@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "lib/MorseLedPi.h"
+#include "lib/MorsePi.h"
 
 using namespace std;
 
