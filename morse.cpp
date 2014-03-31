@@ -9,7 +9,7 @@ using namespace std;
 
 int main (int argc,char *argv[])
 {
-
+  // example  : morseTest 1 bonjour
   char *mot = argv[2];
   int pin = atoi(argv[1]);
 

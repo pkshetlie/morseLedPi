@@ -54,7 +54,11 @@ void MorseLedPi::startLed(){
     delay(100);
   }
 }
-
+/**
+ * return the letter key for associate to morse array
+ * @param  c the letter
+ * @return  index of the char
+ */
 int MorseLedPi::returnKey(char c){
   for(int i = 0; i< 37; i++ ){
     if(c == _lettres[i]){
@@ -64,7 +68,10 @@ int MorseLedPi::returnKey(char c){
   cout<< c <<" -> non reconnu"<<endl;
   return 36;
 }
-
+/**
+ * Allow to change the word to send
+ * @param mot new word
+ */
 void MorseLedPi::setWord(char *mot){
   mot_ = mot;
 }
